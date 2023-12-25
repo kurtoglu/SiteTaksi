@@ -52,7 +52,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid ##393c42;
+  border: 6px solid #393c42;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -123,8 +123,17 @@ h6 {
 }
 
 .header-scrolled .navbar a:hover{
-  color: #171819;
-  font-weight: bold;
+  color: #495057;
+ 
+  
+}
+.header-scrolled .navbar .getstarted a:hover{
+  color: #495057;
+
+  
+}
+.navbar  a i{
+  font-size: 18px;
 }
 
 #header .logo {
