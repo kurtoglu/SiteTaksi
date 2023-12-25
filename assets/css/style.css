@@ -79,7 +79,7 @@ h6 {
   visibility: hidden;
   opacity: 0;
   right: 15px;
-  bottom: 15px;
+  bottom: 65px;
   z-index: 996;
   background: #ffc107;
   width: 40px;
@@ -88,14 +88,27 @@ h6 {
   transition: all 0.4s;
 }
 
+.whatsapp-bottom {
+  position: fixed;
+  color: #FFFFFF !important;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: 	#25D366;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
 .back-to-top i {
   font-size: 24px;
-  color: #fff;
+  color: #343a40;
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #6bc1e9;
+  background: #fcd971;
   color: #fff;
 }
 
@@ -502,7 +515,9 @@ h6 {
 }
 
 @media (max-width: 768px) {
+
   #hero h1 {
+    
     font-size: 28px;
     line-height: 36px;
   }
@@ -519,6 +534,7 @@ h6 {
 }
 
 @media (max-width: 575px) {
+
   #hero .hero-img img {
     width: 80%;
   }
