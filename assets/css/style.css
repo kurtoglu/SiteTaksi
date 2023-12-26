@@ -204,17 +204,23 @@ h6 {
 
 .navbar a i,
 .navbar a:focus i {
-  font-size: 12px;
+  font-size: 18px;
   line-height: 0;
-  margin-left: 5px;
+  margin-left: 1px;
 }
 
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #ffc107;
+  color: #f9c100;
 }
+
+
+.header-scrolled .navbar .active:focus {
+  color: #343a40;
+}
+
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
@@ -230,7 +236,7 @@ h6 {
 
 .header-scrolled .navbar .getstarted,
 .navbar .getstarted:focus {
-  color: #f9c100;
+  color: #343a40;
 }
 
 
